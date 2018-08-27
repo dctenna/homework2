@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Questionnaire about Krakow</title>
+</head>
+
+<body>
+    <h2>Questionnaire about Krakow</h2>
+    <nav>
+        <a href="index.html">Return to Krakow Travel Guide</a>
+    </nav>
+    <form method="POST" action="https://formspree.io/dctenna@gmail.com">
+        <fieldset>
+            <label>First name:</label><br/>
+            <input type="text" name="firstname">
+            <br/>
+            <label>Last name:</label><br/>
+            <input type="text" name="lastname">
+            <br/>
+            <label> User password:</label><br>
+            <input type="password" name="psw">
+            <br/>
+            <label>Gender:</label>
+            <br/>
+            <label><input type="radio" name="gender" value="male">Male</label>
+            <label><input type="radio" name="gender" value="female">Female</label>
+            <label><input type="radio" name="gender" value="other">Other</label>
+            <br/>
+            <br/>
+            <label>Have you ever been in Krakow?</label>
+            <br/>
+            <label><input type="radio" name="to be in Krakow" value="yes">Yes</label>
+            <label><input type="radio" name="to be in Krakow" value="no">No</label>
+            <br/><br/>
+            <label>What museum have you visited?</label>
+            <br/>
+            <select name="museums">
+              <option value="national">National Museum in Krakow</option>
+              <option value="mocak">MOCAK – Museum of Contemporary Art</option>
+              <option value="underground">Main Market Underground Museum</option>
+              <option value="schindler’s">Oskar Schindler’s Factory</option>
+            </select>
+            <br/>
+            <br/>
+            <label>Tell about your impressions:</label>
+            <br/>
+            <textarea name="message" rows="10" cols="30">
+            </textarea>
+            <br/>
+            <input type="submit">
+            <input type="reset">
+        </fieldset>
+    </form>
+    </form>
+</body>
+
+</html>
